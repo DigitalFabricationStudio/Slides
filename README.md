@@ -5,13 +5,9 @@ Slides of the [Digital Fabrication Studio course](http://mlab.taik.fi/studies/co
 Version: 0.2
 
 [Aalto University](http://www.aalto.fi/en/)
-
 [School of Art, Design and Architecture](http://arts.aalto.fi/en/)
-
 [Department of Media](http://media.aalto.fi/en/)
-
 [Media Lab](http://mlab.taik.fi/)
-
 Teacher: [Massimo Menichinelli](http://fi.linkedin.com/in/massimomenichinelli)
 
 
