@@ -1,0 +1,221 @@
+<!doctype html>  
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Digital Fabrication Studio (25438): Introduction</title>
+
+		<meta name="description" content="Digital Fabrication Studio (25438)">
+		<meta name="author" content="Massimo Menichinelli">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" href="reveal.js/css/main.css">
+		<link rel="stylesheet" href="reveal.js/css/theme/custom.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+
+		<script>
+			// If the query includes 'print-pdf' we'll use the PDF print sheet
+			document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="reveal.js/lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+
+<!-- Calendar -->
+<link rel='stylesheet' type='text/css' href='fullcalendar/fullcalendar/fullcalendar.css' />
+<link rel='stylesheet' type='text/css' href='fullcalendar/fullcalendar/fullcalendar.print.css' media='print' />
+<script type='text/javascript' src='fullcalendar/jquery/jquery-1.7.1.min.js'></script>
+<script type='text/javascript' src='fullcalendar/jquery/jquery-ui-1.8.17.custom.min.js'></script>
+<script type='text/javascript' src='fullcalendar/fullcalendar/fullcalendar.min.js'></script>
+<script type='text/javascript'>
+
+	$(document).ready(function() {
+	
+		var date = new Date();
+		var d = date.getDate();
+		var m = 9;
+		var y = 2012;
+		
+		$('#calendar').fullCalendar({
+			header: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'month,agendaWeek,agendaDay'
+			},
+			editable: true,
+			events: [
+				{
+					title: 'Introduction: the scenario and the tools',
+					start: '2012-09-10T14:30:00',
+					end: '2012-09-12T14:30:00'
+				},
+				{
+					title: 'Online work: development of a project',
+					start: '2012-09-13T14:30:00',
+					end: '2012-10-08T14:30:00'
+				},
+				{
+					title: 'Focus on Fabrication: specific lectures and project finalization',
+					start: '2012-10-09T14:30:00',
+					end: '2012-10-24T14:30:00'
+				},
+				{
+					id: 999,
+					title: 'Finalizing the documentation',
+					start: '2012-10-25T14:30:00',
+					end: '2012-10-26T14:30:00'
+				}
+			]
+		});
+		
+	});
+
+</script>
+
+
+	</head>
+	
+	<body>
+	
+		<div class="reveal">
+
+			<!-- Used to fade in a background when a specific slide state is reached -->
+			<div class="state-background"></div>
+			
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides" data-state="alert">
+				<section style="background: none !important; border: none !important;">
+					<h3>Massimo Menichinelli</h3>
+					<h1>Digital Fabrication Studio (25438)</h1>
+					<h2>00. Introduction</h2>
+				</section>
+				
+				<section>
+					<h2>Media Lab website</h2>
+					<p>
+						<iframe frameborder="0" scrolling="ye" width="740" height="500" src="http://mlab.taik.fi/studies/courses/course?id=1986"></iframe>
+					</p>
+				</section>
+				
+				<section>
+					<h2>Noppa</h2>
+					<p>
+						<iframe frameborder="0" scrolling="ye" width="740" height="500" src="http://mlab.taik.fi/studies/courses/course?id=1986"></iframe>
+					</p>
+				</section>
+				
+				<section>
+					<h2>Description</h2>
+					<p>
+					The course provides a general understanding on how to design and manufacture products and prototypes in a Fab Lab and in the Fab Lab network, using digital fabrication technologies and understanding their features and limits. The course provides a framework for understanding the possible Open and collaborative design dynamics, business models and the role of media in developing a digitally fabricated project. 
+Students will learn how information shapes design, manufacturing and collaboration 
+processes and artifacts in a Fab Lab, at the intersection of bits and atoms. They will learn how to digitally fabricate a project or how to digitally modify an existing project; students will also learn how to manage, embed and retrieve information about a project. Projects and prototypes developed and manufactured in this edition of the course will not be interactive. </p><p>
+The course is structured in three parts: the first part consists of 3 full days of lectures and practice, followed by 3 weeks of online work and discussion, and lastly with 10 lectures of half day each one. The workload of this course will consist on a series of small exercises to be developed after the course hours and a final project to be digitally fabricated and documented by the end of the course, be it a project already designed but not yet realized, or be it a new project, or be it the modification of an existing object or project.
+					</p>
+				</section>
+				
+				<section>
+					<h2>(Recommended) Bibliography</h2>
+					<p class="fragment">
+					<ul>
+					<li class="fragment">Gershenfeld, N. (2000). <em>When Things Start to Think</em>. Holt Paperbacks. </li>
+<li class="fragment">Gershenfeld, N. (2005). <em>FAB: The Coming Revolution on Your Desktop--From Personal Computers to Personal Fabrication</em>. Basic Books. </li>
+<li class="fragment">Hudson, J. (2011). <em>Process 2nd Edition: 50 Product Designs from Concept to Manufacture (2nd ed.)</em>. Laurence King Publishers. </li>
+<li class="fragment">Sterling, B. (2005). <em>Shaping Things (1st ed.)</em>. The MIT Press. </li>
+<li class="fragment">Thompson, R. (2011). <em>Prototyping and low-volume production</em>. London: Thames & Hudson. </li>
+<li class="fragment">Thwaites, T. (2011). <em>The Toaster Project: Or a Heroic Attempt to Build a Simple Electric Appliance from Scratch</em>. Princeton Architectural Press. </li>
+<li class="fragment">Reas, C., & McWilliams, C. (2010). <em>Form+Code in Design, Art, and Architecture (1st ed.)</em>. Princeton Architectural Press </li>
+</ul>
+					</p>
+				</section>
+				
+				<section>
+					<h2>Calendar</h2>
+					
+					<div id='calendar'></div>
+					
+				</section>
+
+			
+				
+				<section>
+					<h2>Spectacular image!</h2>
+					<a class="image" href="http://hakim.se/experiments/html5/breakdom/" target="_blank">
+						<img width="320" height="412" src="https://s3.amazonaws.com/hakim-static/reveal-js/breakdom.png" alt="BreakDOM game screenshot">
+					</a>
+					<p class="source">Source: http://www.openp2pdesign.org</p>
+				</section>
+				
+				
+				
+				<section>
+					<h1>Thank you!</h1>
+					<h3>Massimo Menichinelli</h3>
+					<p><a href="mailto:massimo.menichinelli@aalto.fi">massimo.menichinelli@aalto.fi</a></p>
+					<p>Twitter: <a href="https://twitter.com/openp2pdesign">@openp2pdesign</a></p>
+					<p><a href="http://www.openp2pdesign.org">http://www.openp2pdesign.org</a></p>
+				</section>
+			</div>
+	
+	<aside class="controls2">		
+	<p>
+	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+	</p>
+	<p>Massimo Menichinelli - 2012<br>
+	<a href="">Digital Fabrication Studio website</a></p>
+	</aside>
+
+			<!-- The navigational controls UI -->
+			<aside class="controls">
+				<a class="left" href="#">&#x25C4;</a>
+				<a class="right" href="#">&#x25BA;</a>
+				<a class="up" href="#">&#x25B2;</a>
+				<a class="down" href="#">&#x25BC;</a>
+			</aside>
+
+			<!-- Presentation progress bar -->
+			<div class="progress"><span></span></div>
+			
+		</div>
+
+		<script src="reveal.js/lib/js/head.min.js"></script>
+		<script src="reveal.js/js/reveal.min.js"></script>
+
+		<script>
+			
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/linear(2d)
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'reveal.js/lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal.js/lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js/lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+					{ src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+				]
+			});
+			
+		</script>
+
+    
+
+	</body>
+</html>

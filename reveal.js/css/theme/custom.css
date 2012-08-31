@@ -270,3 +270,9 @@ ol li {
 ol span {
      color: #000000;
 	}
+	
+
+#calendar h2 {
+font-size: 42px;
+text-shadow: 0 0px 0 white !important;
+}
