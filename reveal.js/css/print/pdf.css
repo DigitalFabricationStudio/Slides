@@ -70,8 +70,8 @@ p {
 	margin-bottom: 10px !important;
 }
 
-image {	
-	border: 3px solid red !important;
+img {	
+	max-height: 500px !important;
 }
 
 /* SECTION 5: Make hyperlinks more usable.
