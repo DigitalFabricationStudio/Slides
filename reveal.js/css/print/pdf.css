@@ -114,6 +114,7 @@ ul, ol, div, p {
 
 ul, ol {
 	line-height:200%;
+	width: 800px !important;
 }
 .reveal .slides {
 	position: static;
