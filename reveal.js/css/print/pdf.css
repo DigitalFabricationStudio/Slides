@@ -24,6 +24,7 @@ body {
 	float: none !important;
 	overflow: visible;
 	background: #333;
+	background: url('../../images/pattern-3.png');
 }
 
 html {

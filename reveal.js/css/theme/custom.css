@@ -72,7 +72,7 @@ body {
 .reveal h4, 
 .reveal h5, 
 .reveal h6 {
-	margin: 0 0 20px 0;
+	margin: 0 0 60px 0;
 	color: #333;
 	font-family: 'PT Sans', Impact, sans-serif;
 	font-weight: bold;
@@ -241,13 +241,18 @@ body {
 section {
     border: 1px solid #D4D3CB;
     background: white !important;
-    padding: 5px;
+    padding: 15px;
+    width: 1200px !important;
+    height: 900px !important;
+    position: relative;
+    top: -100px;
 }
 
 ul{
     list-style:none;
     margin:0 0 1em 15px;
     padding: 0;
+    width: 1000px;
 }
 ul li{
     line-height:1.3em;
@@ -263,6 +268,10 @@ ul li{
 /* End hide from IE-mac */
 
 
+ol {
+    width: 1000px;
+}
+
 ol li {
      color: #FF5E1F;
 	}
@@ -275,4 +284,5 @@ ol span {
 .calendar h2 {
 font-size: 42px;
 text-shadow: 0 0px 0 white !important;
+height: 70%;
 }
