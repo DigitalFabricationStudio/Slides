@@ -229,7 +229,7 @@ body {
 .reveal .controls2 {
 	margin: 20px;
 	position: fixed;
-	width: 250px;
+	width: 200px;
 	height: 100px;
 	z-index: 30;
 	font-size:12px;
@@ -246,6 +246,8 @@ section {
     height: 900px !important;
     position: relative;
     top: -100px;
+    left: -150px;
+
 }
 
 ul{
