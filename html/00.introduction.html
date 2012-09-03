@@ -1,0 +1,409 @@
+<!doctype html>  
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Digital Fabrication Studio (25438) v.0.2: Introduction</title>
+
+		<meta name="description" content="Digital Fabrication Studio (25438)">
+		<meta name="author" content="Massimo Menichinelli">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" href="reveal.js/css/main.css">
+		<link rel="stylesheet" href="reveal.js/css/theme/custom.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+
+		<script>
+			// If the query includes 'print-pdf' we'll use the PDF print sheet
+			document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="reveal.js/lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+
+<!-- Calendar -->
+<link rel='stylesheet' type='text/css' href='fullcalendar/fullcalendar/fullcalendar.css' />
+<link rel='stylesheet' type='text/css' href='fullcalendar/fullcalendar/fullcalendar.print.css' media='print' />
+<script type='text/javascript' src='fullcalendar/jquery/jquery-1.7.1.min.js'></script>
+<script type='text/javascript' src='fullcalendar/jquery/jquery-ui-1.8.17.custom.min.js'></script>
+<script type='text/javascript' src='fullcalendar/fullcalendar/fullcalendar.min.js'></script>
+<script type='text/javascript'>
+
+	$(document).ready(function() {
+	
+		var date = new Date();
+		var d = date.getDate();
+		var m = 9;
+		var y = 2012;
+		
+		$('.calendar').fullCalendar({
+		    height: 750,
+			header: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'month,agendaWeek,agendaDay'
+			},
+			editable: true,
+			events: [
+				{
+					title: 'Introduction: the scenario and the tools',
+					start: '2012-09-10T14:30:00',
+					end: '2012-09-12T14:30:00'
+				},
+				{
+					title: 'Online work: development of a project',
+					start: '2012-09-13T14:30:00',
+					end: '2012-10-08T14:30:00'
+				},
+				{
+					title: 'Focus on Fabrication: specific lectures and project finalization',
+					start: '2012-10-09T14:30:00',
+					end: '2012-10-24T14:30:00'
+				},
+				{
+					id: 999,
+					title: 'Finalizing the documentation',
+					start: '2012-10-25T14:30:00',
+					end: '2012-10-26T14:30:00'
+				}
+			]
+		});
+		
+	});
+
+</script>
+
+
+	</head>
+	
+	<body>
+	
+		<div class="reveal">
+
+			<!-- Used to fade in a background when a specific slide state is reached -->
+			<div class="state-background"></div>
+			
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides" data-state="alert">
+				<section style="background: none !important; border: none !important;">
+					<h3>Massimo Menichinelli</h3>
+					<h1>Digital Fabrication Studio (25438) v.0.2</h1>
+					<h2>00. Introduction</h2>
+				</section>
+				
+				<section>
+					<h2>About Massimo...</h2>
+					<p>
+					<ol>
+					<li><span>MSc in Industrial Design, Politecnico di Milano (Milan,Italy)</span></li>
+					<li><span>Doctoral Candidate at Media Lab, School of Art, Design and Architecture (Helsinki, Finland)</span></li>
+					<li><span>FabAcademy guru! (FabBootCamp 2012 @ FabLab Barcelona)</span></li>
+					<li><span>FabAcademy guru! (FabAcademy2012 @ FabLab Amsterdam)</span></li>
+					<li><span>Many years of workshops & lectures (Italy, Spain, Finland, Germany, South Korea, Singapore, Mexico, ...)</span></li>
+					<li><span>Experience in Industrial Design, Service Design, Interior Design, Web Design (more coming soon)</span></li>
+					</ol>
+					</p>
+					<p>
+					<a href="http://fi.linkedin.com/in/massimomenichinelli"><img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Massimo Menichinelli's profile on LinkedIn"></a>
+					</p>
+				</section>
+				
+				<section>
+					<h2>About the course</h2>
+					<p>
+					The course provides a general understanding on <strong>how to design and manufacture products and prototypes in a Fab Lab and in the Fab Lab network</strong>, using digital fabrication technologies and understanding their <strong>features and limits</strong>. The course provides a framework for understanding the possible <strong>Open and collaborative design dynamics, business models and the role of media</strong> in developing a digitally fabricated project. </p>
+<p>Students will learn <strong>how information shapes design, manufacturing and collaboration processes and artifacts</strong> in a Fab Lab, at the intersection of bits and atoms. They will learn how to digitally fabricate a project or how to digitally modify an existing project; students will also learn how to manage, embed and retrieve information about a project. Projects and prototypes developed and manufactured in this edition of the course <strong>will not be interactive</strong>. </p>
+<p>
+The course is structured in <strong>three parts</strong>: the first part consists of 3 full days of lectures and practice, followed by 3 weeks of online work and discussion, and lastly with 10 lectures of half day each one. The workload of this course will consist on <strong>a series of small exercises</strong> to be developed after the course hours and <strong>a final project to be digitally fabricated and documented</strong> by the end of the course, be it a project already designed but not yet realized, or be it a new project, or be it the modification of an existing object or project. </p>
+				</section>
+				
+				<section>
+					<h2>Info @ Media Lab</h2>
+					<p><a href="http://mlab.taik.fi/studies/courses/course?id=1986">http://mlab.taik.fi/studies/courses/course?id=1986</a>
+					</p>
+					<p>
+					<a href="http://mlab.taik.fi/studies/courses/course?id=1986"><image src="images/mlab.png"></a>
+					</p>
+				</section>
+				
+				<section>
+					<h2>Info @ Noppa</h2>
+					<p>
+					<a href="https://noppa.aalto.fi/noppa/kurssi/25438/etusivu">https://noppa.aalto.fi/noppa/kurssi/25438/etusivu</a>
+					</p>
+					<p>
+					<a href="https://noppa.aalto.fi/noppa/kurssi/25438/etusivu"><image src="images/noppa.png"></a>
+					</p>
+				</section>
+				
+				<section>
+					<h2>Info @ GitHub</h2>
+					<p>
+					<a href="https://github.com/organizations/DigitalFabricationStudio">http://github.com/organizations/DigitalFabricationStudio</a>
+					</p>
+					<p>
+					<a href="https://github.com/organizations/DigitalFabricationStudio"><image src="images/github.png"></a>
+					</p>
+				</section>
+				
+				<section>
+					<h2>(Recommended) Bibliography</h2>
+					<p class="fragment">
+					<ul>
+					<li class="fragment">Gershenfeld, N. (2000). <em>When Things Start to Think</em>. Holt Paperbacks. </li>
+<li class="fragment">Gershenfeld, N. (2005). <em>FAB: The Coming Revolution on Your Desktop--From Personal Computers to Personal Fabrication</em>. Basic Books. </li>
+<li class="fragment">Hudson, J. (2011). <em>Process 2nd Edition: 50 Product Designs from Concept to Manufacture (2nd ed.)</em>. Laurence King Publishers. </li>
+<li class="fragment">Sterling, B. (2005). <em>Shaping Things (1st ed.)</em>. The MIT Press. </li>
+<li class="fragment">Thompson, R. (2011). <em>Prototyping and low-volume production</em>. London: Thames & Hudson. </li>
+<li class="fragment">Thwaites, T. (2011). <em>The Toaster Project: Or a Heroic Attempt to Build a Simple Electric Appliance from Scratch</em>. Princeton Architectural Press. </li>
+<li class="fragment">Reas, C., & McWilliams, C. (2010). <em>Form+Code in Design, Art, and Architecture (1st ed.)</em>. Princeton Architectural Press </li>
+</ul>
+					</p>
+				</section>
+				
+				<section>
+					<h2>Schedule: overview</h2>
+					<div class='calendar'></div>
+				</section>
+				
+				<section>
+					<h2>Schedule #01: first 3 days</h2>
+					<p>
+					<ol>
+					<li><span>10th Sep 2012 9:00 – 16:00</span></li>
+<ol>
+<li><span>Morning: Digital Fabrication and FabLabs: the current ecosystem and its possibilities. </span></li>
+<li><span>Afternoon: Media, business, platforms: their role in the digital fabrication ecosystem 
+and how to adopt them for our projects. </span></li>
+</ol>
+<li><span>11th Sep 2012 9:00 - 16:00</span></li>
+<ol>
+<li><span>Morning: Information management for a digitally fabricated project.</span></li>
+<li><span>Afternoon: Version control systems practice: versioning a personal profile. </span></li>
+</ol>
+<li><span>12th Sep 2012 9:00 – 16:00</span></li>
+<ol>
+<li><span>Morning: Intellectual property, Open Design, Metadesign for a digitally fabricated project.</span></li> 
+<li><span>Afternoon: Version control systems practice: project management.</span></li>
+</ol> 
+					</ol>
+					</p>
+				</section>
+				
+				<section>
+					<h2>Schedule #02: online process</h2>
+					<p>
+					<ol>
+					<li><span>Working on GitHub remotely (I will follow your work and help you!)</span></li>
+					<li><span>Work on the concept for the final project.</span></li>
+					<li><span>Further improve the knowledge and expertise you may need (for example: 3D modeling, ...)</span></li>
+					<li><span><strong>Help each other!</strong></span></li>
+					</ol>
+					</p>
+				</section>
+				
+				<section>
+					<h2>Schedule #03: work in the lab #01</h2>
+					<p>
+					<ol>
+					<li><span>9th Oct 2012 9:00 - 12:00</span></li>
+						<ol>
+						<li><span>Morning: Laser cutting: technology, processes and design techniques. </span></li>
+						<li><span>Homework: Design and fabricate a laser cut box or interlocking object. </span></li>
+						</ol>
+					<li><span>10th Oct 2012 9:00 - 12:00</span></li>
+						<ol>
+						<li><span>Morning: 3D Scanning: technology, processes and design techniques. </span></li>
+						<li><span>Homework: Develop and refine a 3D scan of yourself.</span></li>
+						</ol>
+					<li><span>11th Oct 2012 9:00 - 12:00</span></li>
+						<ol>
+						<li><span>Morning: CNC Milling: technology, processes and design techniques.</span></li>
+						<li><span>Homework: Mill your previous 3D scan.</span></li>
+						</ol>
+					<li><span>12th Oct 2012 9:00 - 12:00: Morning</span></li>
+						<ol>
+						<li><span>Morning: Molding and casting: possibilities, processes and design techniques. </span></li>
+						<li><span>Homework: Create a mold and a final object out of it. </span></li>
+						</ol>
+					</ol>
+					</p>
+				</section>
+				
+				<section>
+					<h2>Schedule #03: work in the lab #02</h2>
+					<p>
+					<ol>
+					<li><span>16th Oct 2012 9:00 - 12:00</span></li>
+						<ol>
+						<li><span>Morning: 3D Printing: technology, processes and design techniques.</span></li>
+						<li><span>Homework: Design or modify a small object and print it in 3D.</span></li>
+						</ol>
+					<li><span>17th Oct 2012 9:00 - 12:00</span></li>
+						<ol>
+						<li><span>Morning: Project development: ideas & business models. </span></li>
+						<li><span>Homework: Final project development. </span></li>
+						</ol>
+					<li><span>18th Oct 2012 9:00 - 12:00</span></li>
+						<ol>
+						<li><span>Morning: Project development: prototyping.</span></li>
+						<li><span>Homework: Final project development.</span></li>
+						</ol>
+					<li><span>19th Oct 2012 9:00 - 12:00</span></li>
+						<ol>
+						<li><span>Morning: Project development: Final version .</span></li>
+						<li><span>Homework: Final project development.</span></li>
+						</ol>
+					</ol>
+					</p>
+				</section>
+
+			
+				<section>
+					<h2>Schedule #03: work in the lab #03</h2>
+					<p>
+					<ol>
+					<li><span>23rd Oct 2012 9:00 - 12:00</span></li>
+						<ol>
+						<li><span>Morning: Project development: Final version.</span></li>
+						<li><span>Homework: Final project development.</span></li>
+						</ol>
+					<li><span>24th Oct 2012 9:00 - 12:00</span></li>
+						<ol>
+						<li><span>Morning: Final presentation</span></li>
+						</ol>
+					</p>
+				</section>
+				
+				<section>
+					<h2>Schedule #04</h2>
+					<p>
+					From October 25th till October 28th you have time for finalizing the documentation or the project. I will check the repository on October 29th.
+					</p>
+				</section>
+				
+				<section>
+					<h2>Schedule: recap</h2>
+					<div class='calendar'></div>
+				</section>
+				
+				<section>
+					<h2>Assignments</h2>
+					<p>
+					<ul>
+					<li>Small exercises for practicing with the technologies.</li>
+					<li>A final project for understanding and managing the design process and tools.</li>
+						<ol>
+						<li><span>A physical object.</span></li>
+						<li><span>A digital documentation of the process of designing and manufacturing the object.</span></li>
+						<li><span>A business model for making the design and manufacturing of the object financially sustainable.</span></li>
+						</ol>
+					</ul>
+					</p>
+				</section>
+						
+				<section>
+					<h2>Suggestions</h2>
+					<p>
+					<ul>
+						<li>prototype, test, explore, share, collaborate</li>
+						<li>Think about a <strong>simple project</strong>: it doesn't have to save the world, just make you learn digital fabrication and it has to be
+completed on time</li>
+						<li><strong>fail early, fail often</strong>: we are all prototyping (your projects, this course, this lab...)</li>
+						<li><strong>explore</strong>: a 100% original project is not required (does it exist?), learn from others and just don't reinvent the wheel</li>
+						<li>but <strong>be careful with intellectual property!</strong> Only use resources you can work and redistribute freely. <strong>Ask for help</strong if in doubt.</li>
+						<li>you can <strong>use the lab</strong> even outside of the course hours</li>
+						<li>you decide <strong>how much time</strong> to spend for testing and how
+much time for developing the project; I will help you, don't
+worry!</li>
+						<li>I will evaluate the project but especially if you have learnt the process, the tools and if you have collaborated or helped each other!</li>
+						<li><strong>Always document and publish</strong> on GitHub, it is where I will see if you have worked or not.</li>
+					</ul>
+					</p>
+				</section>
+				
+				<section>
+					<h2>Licensing the work</h2>
+					<p>
+					<ul>
+						<li>We are going to use <strong>GitHub for Open Source projects</strong>, so everything will be accessible with everybody.</li>
+						<li>So publish / share only what you think anybody else can have access to. <strong>Do not share what you want to keep private / secret</strong> (or if you don't have rights to)</li>
+						<li>You can choose <strong>a specific Creative Commons license</strong> for your project and exercises.</li>
+					</ul>
+					</p>
+				</section>
+				
+				<section>
+					<h1>Thank you!</h1>
+					<h2>Any Questions?</h2>
+					<h3>Massimo Menichinelli</h3>
+					<p><a href="mailto:massimo.menichinelli@aalto.fi">massimo.menichinelli@aalto.fi</a></p>
+					<p><a href="mailto:info@openp2pdesign.org">info@openp2pdesign.org</a></p>
+					<p>Twitter: <a href="https://twitter.com/openp2pdesign">@openp2pdesign</a></p>
+					<p><a href="http://www.openp2pdesign.org">http://www.openp2pdesign.org</a></p>
+					<p><a href="https://github.com/openp2pdesign">openp2pdesign @ GitHub</a></p>
+				</section>
+			</div>
+	
+	<aside class="controls2">		
+	<p>
+	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+	</p>
+	<p>Massimo Menichinelli - 2012<br>
+	<a href="">Digital Fabrication Studio website</a></p>
+	</aside>
+
+			<!-- The navigational controls UI -->
+			<aside class="controls">
+				<a class="left" href="#">&#x25C4;</a>
+				<a class="right" href="#">&#x25BA;</a>
+				<a class="up" href="#">&#x25B2;</a>
+				<a class="down" href="#">&#x25BC;</a>
+			</aside>
+
+			<!-- Presentation progress bar -->
+			<div class="progress"><span></span></div>
+			
+		</div>
+
+		<script src="reveal.js/lib/js/head.min.js"></script>
+		<script src="reveal.js/js/reveal.min.js"></script>
+
+		<script>
+			
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/linear(2d)
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'reveal.js/lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal.js/lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js/lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+					{ src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+				]
+			});
+			
+		</script>
+
+    
+
+	</body>
+</html>
