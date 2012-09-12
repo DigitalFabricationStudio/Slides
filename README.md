@@ -1,5 +1,5 @@
-Slides
-======
+# DIGITAL FABRICATION STUDIO 0.2
+# SLIDES
 
 Slides of the [Digital Fabrication Studio course](http://mlab.taik.fi/studies/courses/course?id=1986).
 Version: 0.2
