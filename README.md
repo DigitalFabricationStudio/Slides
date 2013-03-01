@@ -1,8 +1,8 @@
-# DIGITAL FABRICATION STUDIO 0.2
+# DIGITAL FABRICATION STUDIO 0.3
 # SLIDES
 
 Slides of the [Digital Fabrication Studio course](http://mlab.taik.fi/studies/courses/course?id=1986).
-Version: 0.2
+Version: 0.3
 
 [Aalto University](http://www.aalto.fi/en/)<br>
 [School of Art, Design and Architecture](http://arts.aalto.fi/en/)<br>
